@@ -8,7 +8,7 @@
 
 import Foundation
 
-let API_KEY = "887eb459ae6f334145c2fdef7f0a07ba"
+let API_KEY = "USE YOUR API KEY"
 let APP_ID = "&appid="
 let BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 let FORECAST_BASE_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?"
