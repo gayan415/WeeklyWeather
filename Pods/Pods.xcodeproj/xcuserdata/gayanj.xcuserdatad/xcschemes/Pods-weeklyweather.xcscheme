@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A471F5251E25162200EED732"
-               BuildableName = "weeklyweather.app"
-               BlueprintName = "weeklyweather"
-               ReferencedContainer = "container:weeklyweather.xcodeproj">
+               BlueprintIdentifier = "0DE2F1A19EAC85C5A09BC4015A70668D"
+               BuildableName = "Pods_weeklyweather.framework"
+               BlueprintName = "Pods-weeklyweather"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A471F5251E25162200EED732"
-            BuildableName = "weeklyweather.app"
-            BlueprintName = "weeklyweather"
-            ReferencedContainer = "container:weeklyweather.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A471F5251E25162200EED732"
-            BuildableName = "weeklyweather.app"
-            BlueprintName = "weeklyweather"
-            ReferencedContainer = "container:weeklyweather.xcodeproj">
+            BlueprintIdentifier = "0DE2F1A19EAC85C5A09BC4015A70668D"
+            BuildableName = "Pods_weeklyweather.framework"
+            BlueprintName = "Pods-weeklyweather"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A471F5251E25162200EED732"
-            BuildableName = "weeklyweather.app"
-            BlueprintName = "weeklyweather"
-            ReferencedContainer = "container:weeklyweather.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
