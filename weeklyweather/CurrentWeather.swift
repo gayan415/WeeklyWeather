@@ -11,6 +11,7 @@ import Alamofire
 
 class CurrentWeather {
     private var _cityName: String!
+    private var _countryName: String!
     private var _date: String!
     private var  _weatherType: String!
     private var _currentTemp: Double!
@@ -20,6 +21,13 @@ class CurrentWeather {
             _cityName = ""
         }
         return _cityName
+    }
+    
+    var countryName: String {
+        if _countryName == nil {
+            _countryName = ""
+        }
+        return _countryName
     }
     
     var date: String {
@@ -56,6 +64,11 @@ class CurrentWeather {
             if let dict = result.value as? Dictionary<String, AnyObject> {
                 if let name = dict["name"] as? String {
                     self._cityName = name.capitalized
+                }
+                if let sysDict = dict["sys"] as? Dictionary<String, AnyObject> {
+                    if let country  = sysDict["country"] as? String {
+                        self._countryName = country
+                    }
                 }
                 if let weather = dict["weather"] as? [Dictionary<String, AnyObject>] {
                     if let main = weather[0]["main"] as? String {

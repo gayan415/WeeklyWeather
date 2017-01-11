@@ -103,7 +103,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
         dateLabel.text = curentWeather.date
         currentTempLabel.text = "\(curentWeather.currentTemp)"
         currentWeatherTypeLabel.text = curentWeather.weatherType
-        locationLabel.text = curentWeather.cityName
+        locationLabel.text = "\(curentWeather.cityName), \(curentWeather.countryName)"
         currentWeatherImage.image = UIImage(named: curentWeather.weatherType)
     }
 }
